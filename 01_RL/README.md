@@ -1,4 +1,4 @@
-# 01 Reinforcement Learning 
+# Reinforcement Learning 
 
 ## Deep Q-Learning (DQN)
 
