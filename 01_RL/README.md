@@ -1,9 +1,9 @@
 # 01 Reinforcement Learning 
 
-## Deep Q-Learning
+## Deep Q-Learning (DQN)
 
 
-## Deep Deterministic Policy Gradient
+## Deep Deterministic Policy Gradient (DDPG)
 DDPG implement DPG algorithm with actor-critic parametrized with neural networks.
 
 ### Actor ###
