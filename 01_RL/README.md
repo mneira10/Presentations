@@ -31,4 +31,4 @@ Critic estimate action value function <img src="./svgs/5b9f673276d4daa369c7ea9c3
 
 
 ### My results
-<p align="center">![DDPG Performance on swing up pendulum (Pendulum-v0)](./02_DDPG/Trained_Models/DDPG_Pendulum-v0/reward_vs_episode.png)</p>
+![DDPG Performance on swing up pendulum (Pendulum-v0)](./02_DDPG/Trained_Models/DDPG_Pendulum-v0/reward_vs_episode.png)
