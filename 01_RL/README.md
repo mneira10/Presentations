@@ -25,7 +25,7 @@ Critic estimate action value function <img src="./svgs/5b9f673276d4daa369c7ea9c3
 - **(Optional)** In continous montain car the reward is
 
 <p align="center"><img src="./svgs/3f07748cf5a51330d54ff82a52ca6f11.svg" align=middle width=283.5015645pt height=39.452455349999994pt/></p> 
-  Change the reward so it penalize the velocity of the car.
+    - Change the reward so it penalize the velocity of the car.
 
 
 
