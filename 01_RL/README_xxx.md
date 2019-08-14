@@ -4,7 +4,7 @@
 
 ### Homework
 \begin{itemize}
-  \item Play with the hyperparameters and show their corresponding graphs. Which parameter caused the most change? Which one       didn’t affect that much? Discuss briefly your results.
+  \item Play with the hyperparameters and show their corresponding graphs. Which parameter caused the most change? Which one didn’t affect that much? Discuss briefly your results.
   \item Anneal the $\epsilon$ (exploration noise) hyperparameter to decay linearly instead of being fixed. Did it help at all? Why?
   \item Try two different architectures and report any results
 \end{itemize}
@@ -29,7 +29,7 @@ Critic estimate action value function $Q_\pi_\theta(s,a)$ under policy $\pi_\the
   
   \item \textbf{(Optional)} In continous montain car is 
   $$R_t=\left\{\begin{array}{cc}
-  100 - 0.1||u||_2 & \quad & \text{goal reached}\\
+  100 - 0.1||u||_2  \quad & \text{goal reached}\\
   -0.1||u||_2 \quad & \text{otherwise} 
   \end{array}\right.$$ 
   Penalize velocity in mountain car and compare.
