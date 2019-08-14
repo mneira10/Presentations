@@ -3,10 +3,9 @@
 ## Deep Q-Learning
 
 ### Homework
-\begin{itemize}
-  \item Play with the hyperparameters and show their corresponding graphs. Which parameter caused the most change? Which one didn’t affect that much? Discuss briefly your results.
-  \item Anneal the $\epsilon$ (exploration noise) hyperparameter to decay linearly instead of being fixed. Did it help at all? Why?
-  \item Try two different architectures and report any results
+- Play with the hyperparameters and show their corresponding graphs. Which parameter caused the most change? Which one didn’t affect that much? Discuss briefly your results.
+- Anneal the $\epsilon$ (exploration noise) hyperparameter to decay linearly instead of being fixed. Did it help at all? Why?
+- Try two different architectures and report any results
 \end{itemize}
 
 ## Deep Deterministic Policy Gradient
@@ -19,22 +18,18 @@ Actor estimate policy $\pi_\theta(s)$ which maps from state to action.\\
 Critic estimate action value function $Q_\pi_\theta(s,a)$ under policy $\pi_\theta(s)$.\\
 
 ### Homework
-\begin{itemize}
-  \item Change DDPG to Mountain car, (May tune a bit the hyperparameters as constant time systems are different, we load both critic-actor weigth so finetune!). Compare with DQN as the environment is the same.\\
+- Change DDPG to Mountain car, (May tune a bit the hyperparameters as constant time systems are different, we load both critic-actor weigth so finetune!). Compare with DQN as the environment is the same.\\
   
-  \begin{itemize}
-    \item Compare control action $u$ in test in episode with different initial conditions.\\
-    \item Compare estabilization time $t_s$ (time to reach goal) in different episodes.\\
-  \end{itemize}
+  - Compare control action $u$ in test in episode with different initial conditions.\\
+  - Compare estabilization time $t_s$ (time to reach goal) in different episodes.\\
   
-  \item \textbf{(Optional)} In continous montain car is ()
+- **(Optional)** In continous montain car the reward is
 
-            $$R_t=\left\{\begin{array}{cc}
-            100 - 0.1||u||_2  \quad & \text{goal reached}\\
-            -0.1||u||_2 \quad & \text{otherwise} 
-            \end{array}\right.$$ 
-
-\end{itemize}
+$$R_t=\left\{\begin{array}{cc}
+100 - 0.1||u||_2  \quad & \text{goal reached}\\
+-0.1||u||_2 \quad & \text{otherwise} 
+\end{array}\right.$$ 
+  Change the reward so it penalize the velocity of the car.
 
 
 
