@@ -27,12 +27,13 @@ Critic estimate action value function $Q_\pi_\theta(s,a)$ under policy $\pi_\the
     \item Compare estabilization time $t_s$ (time to reach goal) in different episodes.\\
   \end{itemize}
   
-  \item \textbf{(Optional)} In continous montain car is 
-  $$R_t=\left\{\begin{array}{cc}
-  100 - 0.1||u||_2  \quad & \text{goal reached}\\
-  -0.1||u||_2 \quad & \text{otherwise} 
-  \end{array}\right.$$ 
-  Penalize velocity in mountain car and compare.
+  \item \textbf{(Optional)} In continous montain car is ()
+
+            $$R_t=\left\{\begin{array}{cc}
+            100 - 0.1||u||_2  \quad & \text{goal reached}\\
+            -0.1||u||_2 \quad & \text{otherwise} 
+            \end{array}\right.$$ 
+
 \end{itemize}
 
 
