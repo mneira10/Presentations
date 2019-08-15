@@ -22,10 +22,10 @@ Critic estimate action value function <img src="./svgs/5b9f673276d4daa369c7ea9c3
   - Compare control action from both DQN and DDPG <img src="./svgs/6dbb78540bd76da3f1625782d42d6d16.svg" align=middle width=9.41027339999999pt height=14.15524440000002pt/> in test.\\
   - Compare estabilization time <img src="./svgs/45daa205a2eacb8e053a24d9ae312e8e.svg" align=middle width=12.140467349999989pt height=20.221802699999984pt/> (time to reach goal) in different episodes.\\
   
-- **(Optional)** In continous montain car the reward is
+- **(Optional)** In continous mountain car the reward is
 
 <p align="center"><img src="./svgs/3f07748cf5a51330d54ff82a52ca6f11.svg" align=middle width=283.5015645pt height=39.452455349999994pt/></p> 
-    - Change the reward so it penalize the velocity of the car.
+    - Change the reward so it penalizes the velocity of the car.
 
 
 
